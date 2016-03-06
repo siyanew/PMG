@@ -17,7 +17,7 @@ if V != 0 goto L  # If the value of V is nonzero, perform the instruction with l
 ## Usage
 
 ```
-from PMG import PMG
+from pmg import PMG
 
 pmg_interpreter = PMG("test.pmg")
 pmg_interpreter.read()
